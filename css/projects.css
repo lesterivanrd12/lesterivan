@@ -1,0 +1,48 @@
+
+.projects-content {
+    width: 55%;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: solid #2b2b2b 1px;
+
+}
+
+.img-thumbnail {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+    transition: .1s;
+}
+
+.desc {
+    margin-left: 20px;
+}
+
+.desc h3 {
+    margin: 5px 0;
+}
+
+.stack-head {
+    color: #838383;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.stack-list {
+    margin: 10px 20px;
+}

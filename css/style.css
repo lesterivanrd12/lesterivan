@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title{
+    margin: 40px 0px;
+}
+
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 42px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 15px;
+}
+p {
+    color: #838383;
+    font-size: 13px;
+}
+
+a {
+    color: #fff;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+
+/* Mobile Devices width 426px and below CSS */
+@media only screen and (max-width: 426px)  {
+    /* * {
+        overflow: hidden;
+    } */
+
+    .projects-content {
+        display: none;
+    }
+
+    .works-content {
+        display: none;
+    }
+}

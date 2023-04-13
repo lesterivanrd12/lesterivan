@@ -1,0 +1,31 @@
+
+.hero-container {
+    width: 60%;
+    padding: 40px 150px;
+}
+
+.my-img {
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    color: #696969;
+    margin-top: 20px;
+}
+
+.fa-brands {
+    padding: 10px;
+}
+
+.fa-brands:hover {
+    color: #2b2b2b;
+}
+
+/* Mobile Devices with 426px and below CSS */
+@media only screen and (max-width: 426px) {
+    .hero-container {
+        width: 100%;
+        padding: 40px;
+    }
+}
