@@ -1,6 +1,6 @@
 
 .projects-content {
-    width: 55%;
+    width: 60%;
 }
 
 .projects-container {
@@ -45,4 +45,11 @@
 
 .stack-list {
     margin: 10px 20px;
+}
+
+@media only screen and (max-width: 426px)  {
+    .projects-content {
+        width: 100%;
+        padding: 20px;
+    }
 }

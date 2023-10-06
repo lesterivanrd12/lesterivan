@@ -60,3 +60,9 @@
     margin-right: 10px;
 }
 
+@media only screen and (max-width: 426px)  {
+    .works-content {
+        width: 100%;
+        padding: 20px;
+    }
+}
